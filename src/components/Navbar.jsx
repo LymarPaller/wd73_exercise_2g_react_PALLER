@@ -1,8 +1,11 @@
+import CurrentDate from "./CurrentDate"
+
 function Navbar() {
     return (
         <>
-        <nav className="container-fluid">
-            <h1 className="text-center my-5">Weather Forecast</h1>
+        <nav className="text-center container-fluid">
+            <h1 className="mt-5">Weather Forecast</h1>
+            <span className="text-primary"><CurrentDate/></span>
         </nav>
         </>
     )

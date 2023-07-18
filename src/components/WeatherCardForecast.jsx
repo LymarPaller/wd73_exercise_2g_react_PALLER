@@ -30,4 +30,4 @@ function WeatherCardForecast (props) {
     )
 }
 
-export default WeatherCardForecast
+export default WeatherCardForecast;
